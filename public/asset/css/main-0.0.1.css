@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Avenir Next";
+  font-weight: 400;
+  src: local("AvenirNext-Regular");
+}
+@font-face {
+  font-family: "Avenir Next";
+  font-weight: 200;
+  src: local("AvenirNext-UltraLight");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  src: local("Segoe UI");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 200;
+  src: local("Segoe UI Light");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: local("sans-serif-regular");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 200;
+  src: local("sans-serif-light");
+}
+.larger-font-size {
+  font-size: 30px;
+  font-size: 1.875em;
+}
+body {
+  background-color: white;
+  font-family: "Avenir Next", "Segoe UI", "Roboto", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", sans-serif;
+  font-size: 16px;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+.blog-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #f1f1f1;
+}
+@media screen and (min-width: 780px) {
+  .blog-bg {
+    margin-right: 20%;
+  }
+}
+.blog {
+  margin-left: 10%;
+  padding-left: 80px;
+  padding-top: 80px;
+  padding-right: 80px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 780px) {
+  .blog {
+    margin-right: 20%;
+  }
+}
+.article {
+  margin: 1em auto;
+  max-width: 600px;
+}
+.article-header {
+  font-size: 30px;
+  font-size: 1.875em;
+  font-weight: 200;
+  color: #616161;
+}
+.article-content {
+  margin: 2em 0;
+  color: #999999;
+}
+.article-nav {
+  position: fixed;
+  left: 10%;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: #ff0033;
+  font-size: 14px;
+  font-size: 0.875em;
+}
+.article-nav .nav-trigger {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #ff0033;
+}
+.article-nav .next {
+  bottom: 200px;
+}
+.article-nav .prev {
+  bottom: 250px;
+}
+.article-nav .right-carset {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -50px;
+  border-left: 25px solid #ff0033;
+  border-right: 25px solid transparent;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
+.article-nav .left-carset {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -50px;
+  border-right: 25px solid #ff0033;
+  border-left: 25px solid transparent;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
